@@ -1,128 +1,85 @@
 # Cyclistic Bike-Share Analysis
 
-Estudo de caso desenvolvido como parte do **Google Data Analytics Professional Certificate**, oferecido pelo Google por meio da Coursera.
+Estudo de caso desenvolvido como parte do **Google Data Analytics Professional Certificate**, oferecido pelo Google na Coursera.
 
-O projeto reproduz um cenário de trabalho para uma analista de dados júnior e segue as seis etapas do processo de análise apresentadas no curso: **Perguntar, Preparar, Processar, Analisar, Compartilhar e Agir**.
+O projeto simula uma situação real de trabalho de uma analista de dados júnior e segue as etapas propostas pelo curso: **Perguntar, Preparar, Processar, Analisar, Compartilhar e Agir**.
 
 ## Sobre o curso
 
-- **Google Data Analytics Professional Certificate:**  
-  https://www.coursera.org/professional-certificates/google-data-analytics
-
-- **Google Data Analytics Capstone: Complete a Case Study:**  
-  https://www.coursera.org/learn/google-data-analytics-capstone
-
-O estudo Cyclistic é um dos estudos de caso propostos no projeto final do certificado, com o objetivo de aplicar o processo completo de análise de dados e produzir um material que possa ser apresentado em portfólio.
+- [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics)
+- [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 
 ---
 
-## Contexto do case
+## Contexto do estudo de caso
 
 A **Cyclistic** é uma empresa fictícia de compartilhamento de bicicletas em Chicago.
 
-No cenário apresentado pelo Google, a diretora de marketing acredita que o crescimento futuro da empresa depende do aumento do número de **assinaturas anuais**. Para apoiar essa estratégia, a equipe de análise precisa compreender como dois grupos utilizam o serviço:
+No cenário proposto pelo Google, a diretora de marketing acredita que o crescimento futuro da empresa depende do aumento do número de **assinaturas anuais**. Para apoiar essa estratégia, a equipe de análise precisa compreender como dois grupos utilizam o serviço:
 
-- **casual:** usuários que compram passes avulsos ou diários;
-- **member:** usuários com assinatura anual.
+- **member**: usuários com assinatura anual;
+- **casual**: usuários que utilizam passes avulsos ou diários.
 
 O estudo de caso apresenta três perguntas de negócio:
 
 1. Como os assinantes anuais e os usuários casuais utilizam as bicicletas da Cyclistic de maneiras diferentes?
-2. Por que os usuários casuais comprariam uma assinatura anual?
+2. Por que os usuários casuais comprariam assinaturas anuais?
 3. Como a Cyclistic pode usar mídias digitais para influenciar usuários casuais a se tornarem assinantes?
 
 Neste projeto, a pergunta atribuída à análise foi:
 
 > **Como os assinantes anuais e os usuários casuais utilizam as bicicletas da Cyclistic de maneiras diferentes?**
 
-A proposta é transformar os dados históricos de viagens em informações que possam apoiar futuras decisões de marketing voltadas à conversão de usuários casuais em assinantes anuais.
+O objetivo foi identificar diferenças de comportamento entre os dois grupos e transformar os achados em recomendações capazes de apoiar futuras estratégias de conversão de usuários casuais em assinantes anuais.
 
 ---
 
-## Resumo das instruções do estudo de caso
+## Resumo das instruções do case
 
-O material do case orienta a construção do projeto em seis etapas.
+O material do Google orienta o desenvolvimento do estudo em seis etapas:
 
 ### 1. Perguntar
-
-Definir claramente o problema de negócio, compreender quem são as partes interessadas e estabelecer a pergunta que a análise deverá responder.
-
-**Entrega esperada:** declaração clara da tarefa de negócio.
+Definir o problema de negócio, identificar as partes interessadas e estabelecer claramente a pergunta que deverá ser respondida.
 
 ### 2. Preparar
-
-Obter os dados históricos de viagens, compreender como os arquivos estão organizados e avaliar aspectos como integridade, credibilidade, privacidade, licenciamento e limitações dos dados.
-
-**Entrega esperada:** descrição das fontes de dados utilizadas.
+Obter os dados históricos de viagens, compreender sua estrutura e avaliar integridade, credibilidade, privacidade, licenciamento e limitações.
 
 ### 3. Processar
-
 Verificar erros e inconsistências, escolher as ferramentas de trabalho, limpar e transformar os dados e documentar as alterações realizadas.
 
-**Entrega esperada:** documentação da limpeza e da manipulação dos dados.
-
 ### 4. Analisar
-
-Organizar os dados, realizar cálculos, criar estatísticas descritivas e procurar tendências e relações capazes de responder à pergunta de negócio.
-
-O roteiro sugere análises como:
-
-- duração média das viagens;
-- duração máxima;
-- dia da semana;
-- comparação entre usuários `member` e `casual`;
-- número de viagens por dia da semana;
-- consolidação dos 12 meses em uma visão anual.
-
-**Entrega esperada:** resumo da análise.
+Organizar os dados, realizar cálculos, criar estatísticas descritivas e identificar tendências e relações relevantes para a pergunta de negócio.
 
 ### 5. Compartilhar
-
-Criar visualizações claras, profissionais e adequadas ao público executivo, destacando os padrões mais relevantes encontrados durante a análise.
-
-**Entrega esperada:** visualizações de apoio e principais descobertas.
+Criar visualizações claras e profissionais que comuniquem os principais achados para um público executivo.
 
 ### 6. Agir
-
-Transformar as descobertas em recomendações de negócio e disponibilizar o estudo de caso no portfólio.
-
-**Entrega esperada:** três recomendações baseadas nos dados.
+Transformar os resultados da análise em **três recomendações de negócio baseadas nos dados**.
 
 ---
 
-## Fontes e arquivos do projeto
+## Dados utilizados
 
-### Dados originais
+Os dados são registros públicos de viagens da **Divvy**, utilizados pelo estudo de caso para representar a empresa fictícia Cyclistic.
 
-Os dados utilizados no estudo são dados públicos de viagens da **Divvy**, utilizados pelo Google como base para representar a empresa fictícia Cyclistic.
+Foram analisados **12 arquivos mensais**, correspondentes ao período de **setembro de 2025 a agosto de 2026**.
 
-**Fonte oficial indicada nas instruções do case:**
+### Arquivos e fontes
 
-https://divvy-tripdata.s3.amazonaws.com/index.html
+| Recurso | Link |
+|---|---|
+| Dados originais Divvy | https://divvy-tripdata.s3.amazonaws.com/index.html |
+| Instruções do estudo de caso | https://drive.google.com/file/d/1u_7951LuTewBW-5TVi7LggP8d_GWFzyb/view?usp=sharing |
+| Base tratada `cyclistic_limpo.csv` | https://drive.google.com/file/d/13gkQdLmNL2fyKYKT0Ty7U5z3SaLbyza_/view?usp=sharing |
+| Projeto Power BI | https://drive.google.com/file/d/1Ddb5DukxWc_TXkhesHI3NAJtzMzuP6BL/view?usp=sharing |
 
-No projeto foram utilizados **12 arquivos mensais**, cobrindo o período de **setembro de 2025 a agosto de 2026**.
-
-A base bruta consolidada possuía aproximadamente **6,1 milhões de registros**.
-
-### PDF com as instruções do case
-
-https://drive.google.com/file/d/1u_7951LuTewBW-5TVi7LggP8d_GWFzyb/view?usp=sharing
-
-### Base tratada completa — `cyclistic_limpo.csv`
-
-https://drive.google.com/file/d/13gkQdLmNL2fyKYKT0Ty7U5z3SaLbyza_/view?usp=sharing
-
-### Projeto Power BI
-
-https://drive.google.com/file/d/1Ddb5DukxWc_TXkhesHI3NAJtzMzuP6BL/view?usp=sharing
-
-Os arquivos maiores foram disponibilizados por URL em vez de serem armazenados diretamente no GitHub, evitando manter arquivos de centenas de megabytes ou gigabytes dentro do repositório.
+Os arquivos maiores foram disponibilizados externamente por causa do tamanho, mantendo o repositório leve e fácil de navegar.
 
 ---
 
-## Estrutura dos dados originais
+## Estrutura da base original
 
-Os arquivos originais continham as seguintes colunas:
+Os arquivos mensais continham as seguintes colunas:
 
 | Coluna | Descrição |
 |---|---|
@@ -142,33 +99,20 @@ Os arquivos originais continham as seguintes colunas:
 
 ---
 
-## Preparação e limpeza dos dados
+## Preparação e limpeza
 
 Os 12 arquivos mensais foram consolidados em uma única base.
 
-Durante a preparação foram realizadas verificações de:
+Durante a preparação dos dados foram realizadas verificações de:
 
 - estrutura e tipos de dados;
-- datas de início e término;
+- datas e horários de início e término;
 - duplicidade de `ride_id`;
 - valores ausentes;
-- consistência das categorias de usuários;
+- consistência da variável `member_casual`;
 - duração das viagens.
 
-Após a validação:
-
-- registros com datas inválidas foram retirados;
-- registros duplicados por `ride_id` foram removidos;
-- valores ausentes ligados a estações e coordenadas foram mantidos quando não impediam a análise principal, pois o objetivo deste projeto não dependia de localização;
-- foram criadas variáveis derivadas para apoiar a análise temporal.
-
-A base tratada final ficou com **6.115.918 viagens válidas e únicas**.
-
----
-
-## Variáveis criadas
-
-Foram adicionadas variáveis analíticas derivadas dos campos de data e hora:
+Também foram criadas variáveis derivadas para apoiar a análise:
 
 | Variável | Finalidade |
 |---|---|
@@ -177,17 +121,15 @@ Foram adicionadas variáveis analíticas derivadas dos campos de data e hora:
 | `month` | Mês da viagem |
 | `hour` | Hora de início da viagem |
 
-Essas variáveis permitem comparar o comportamento dos usuários ao longo da semana, dos meses e em relação à duração das viagens.
+A base final utilizada na análise ficou com aproximadamente **6,12 milhões de viagens**.
 
 ---
 
-## Arquivo reduzido para Power BI
+## Base preparada para o Power BI
 
-Além da base tratada completa, foi preparado um arquivo voltado especificamente para a etapa de visualização no Power BI.
+Para a etapa de visualização foi criado um recorte da base, mantendo apenas as informações necessárias para responder à pergunta de negócio.
 
-O objetivo foi evitar carregar no dashboard informações que não seriam utilizadas para responder à pergunta de negócio.
-
-No recorte analítico, foram dispensados campos ligados à identificação física das estações e à geolocalização:
+Foram retiradas do arquivo destinado ao Power BI as colunas relacionadas à localização e identificação das estações:
 
 - `start_station_name`
 - `start_station_id`
@@ -198,50 +140,120 @@ No recorte analítico, foram dispensados campos ligados à identificação físi
 - `end_lat`
 - `end_lng`
 
-O campo `rideable_type` também não foi necessário nas visualizações finais deste estudo, pois a análise apresentada no dashboard foi direcionada à comparação entre **usuários casuais e assinantes**, e não ao tipo de bicicleta utilizado.
+O campo `rideable_type` também não foi utilizado na análise final, pois o foco do estudo foi a comparação entre **usuários `member` e `casual`**, e não entre tipos de bicicleta.
 
-Os campos de data e hora foram usados para gerar as variáveis analíticas `ride_length_min`, `day_of_week`, `month` e `hour`.
-
-Essa redução diminuiu o volume do arquivo levado ao Power BI sem alterar as informações necessárias para responder à pergunta do case.
-
----
-
-## Análises realizadas
-
-A análise foi estruturada para comparar os padrões de utilização entre `member` e `casual`.
-
-Foram explorados principalmente:
-
-- quantidade de viagens por categoria de usuário;
-- duração média das viagens;
-- quantidade de viagens por dia da semana;
-- duração média por dia da semana;
-- evolução mensal do número de viagens;
-- diferenças de comportamento entre usuários casuais e assinantes.
-
-As visualizações foram construídas no **Power BI** com foco direto na pergunta:
-
-> **Como usuários casuais e assinantes anuais utilizam as bicicletas de maneiras diferentes?**
+Essa redução diminuiu o volume levado ao Power BI sem retirar as informações necessárias para a análise proposta.
 
 ---
 
 ## Dashboard
 
-O dashboard foi organizado para permitir a comparação entre `member` e `casual`, apresentando indicadores e gráficos sobre:
+O dashboard foi desenvolvido no **Power BI** para comparar os padrões de uso entre assinantes e usuários casuais.
 
-- volume de viagens;
-- duração média;
-- comportamento por dia da semana;
-- comportamento ao longo dos meses.
+![Dashboard Cyclistic](imagens/graficos_an%C3%A1lises.jpg)
 
-O tipo de bicicleta não foi utilizado como dimensão da análise final.
+### Indicadores gerais
+
+| Indicador | Resultado |
+|---|---:|
+| Total de viagens | **6,12 milhões** |
+| Duração média geral | **15,31 min** |
+| Duração mediana | **9,26 min** |
+| Viagens de usuários `casual` | **2,16 milhões** |
+| Viagens de usuários `member` | **3,96 milhões** |
+
+O painel também compara os grupos por:
+
+- dia da semana;
+- mês;
+- hora do dia;
+- duração média das viagens.
+
+---
+
+## Principais insights
+
+### 1. Assinantes concentram a maior parte das viagens
+
+Os usuários `member` realizaram aproximadamente **3,96 milhões de viagens**, enquanto os usuários `casual` realizaram cerca de **2,16 milhões** no período analisado.
+
+Isso mostra uma utilização mais frequente do serviço por parte dos assinantes.
+
+### 2. Usuários casuais fazem viagens mais longas
+
+A duração média das viagens dos usuários `casual` ficou em aproximadamente **20,7 minutos**, contra cerca de **12,4 minutos** entre os `member`.
+
+Esse comportamento se mantém ao longo de praticamente todos os dias da semana.
+
+### 3. O padrão semanal dos grupos é diferente
+
+Os `member` apresentam volume elevado principalmente durante os dias úteis.
+
+Já os usuários `casual` aumentam proporcionalmente sua participação no fim de semana, com destaque para o **sábado**.
+
+### 4. Há diferenças também no horário de utilização
+
+Os `member` apresentam dois picos mais marcados, um pela manhã e outro no fim da tarde.
+
+Esse padrão é **compatível com um uso recorrente para deslocamento**, mas os dados disponíveis não permitem afirmar que a finalidade da viagem seja trabalho.
+
+Os usuários `casual` apresentam comportamento mais concentrado ao longo da tarde.
+
+---
+
+## Insights e recomendações
+
+![Insights e recomendações](imagens/Relatorio.jpg)
+
+---
+
+## Recomendações de negócio
+
+### 1. Direcionar campanhas de conversão para os fins de semana
+
+Como os usuários `casual` ganham participação aos sábados e domingos e realizam viagens mais longas, campanhas voltadas à assinatura anual podem ser exibidas durante ou imediatamente após essas viagens.
+
+### 2. Comunicar vantagens da assinatura para usuários casuais recorrentes
+
+Campanhas podem enfatizar **economia e conveniência** para usuários que utilizam o serviço repetidamente.
+
+A recomendação é identificar situações em que a frequência de uso torne a assinatura anual potencialmente mais interessante do que continuar utilizando o serviço de forma casual.
+
+### 3. Criar campanhas sazonais nos meses de maior uso casual
+
+A análise mensal mostra aumento do uso nos períodos mais quentes.
+
+Esses meses podem ser priorizados para campanhas de aquisição e conversão, quando existe maior presença de usuários `casual` no sistema.
+
+---
+
+## Resposta à pergunta de negócio
+
+A análise mostra que `member` e `casual` apresentam padrões distintos de utilização.
+
+Os **assinantes**:
+
+- representam a maior parcela das viagens;
+- apresentam viagens médias mais curtas;
+- mantêm volume elevado durante os dias úteis;
+- apresentam picos mais definidos pela manhã e no final da tarde.
+
+Os **usuários casuais**:
+
+- realizam menos viagens no total;
+- fazem viagens significativamente mais longas;
+- aumentam sua participação relativa aos fins de semana;
+- apresentam maior concentração de uso durante a tarde.
+
+Essas diferenças permitem direcionar ações de marketing para momentos e perfis de uso em que a conversão para assinatura pode ser mais relevante.
 
 ---
 
 ## Ferramentas utilizadas
 
-- **Python / Pandas**
-- **Jupyter / Google Colab**
+- **Python**
+- **Pandas**
+- **Jupyter Notebook / Google Colab**
 - **Pentaho Data Integration**
 - **Power BI**
 - **Git / GitHub**
@@ -261,47 +273,42 @@ Limpeza e criação de variáveis
         ↓
 cyclistic_limpo.csv
         ↓
-Recorte analítico para BI
+Recorte analítico
         ↓
 Power BI
         ↓
-Dashboard e recomendações
+Dashboard
+        ↓
+Insights e recomendações
 ```
 
 ---
 
 ## Objetivo de portfólio
 
-Este projeto foi desenvolvido com finalidade acadêmica e de portfólio, aplicando conceitos estudados no **Google Data Analytics Professional Certificate** em um conjunto de dados com mais de seis milhões de registros.
+Este projeto foi desenvolvido com finalidade acadêmica e de portfólio, aplicando conceitos estudados no **Google Data Analytics Professional Certificate** a uma base com mais de seis milhões de registros.
 
-O trabalho demonstra etapas de:
+O projeto demonstra experiência prática em:
 
-- compreensão de uma pergunta de negócio;
-- preparação e limpeza de dados;
-- transformação de variáveis;
+- compreensão de problemas de negócio;
+- consolidação e preparação de grandes volumes de dados;
+- limpeza e transformação;
 - análise exploratória;
 - criação de métricas;
-- visualização em Power BI;
-- comunicação dos resultados.
+- visualização de dados;
+- construção de dashboards no Power BI;
+- interpretação dos resultados;
+- formulação de recomendações baseadas em dados.
 
 ---
 
 ## Referências
 
-**Google Data Analytics Professional Certificate — Coursera**  
-https://www.coursera.org/professional-certificates/google-data-analytics
+- [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics)
+- [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
+- [Dados públicos Divvy](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- [Instruções do estudo de caso](https://drive.google.com/file/d/1u_7951LuTewBW-5TVi7LggP8d_GWFzyb/view?usp=sharing)
+- [Base tratada completa](https://drive.google.com/file/d/13gkQdLmNL2fyKYKT0Ty7U5z3SaLbyza_/view?usp=sharing)
+- [Projeto Power BI](https://drive.google.com/file/d/1Ddb5DukxWc_TXkhesHI3NAJtzMzuP6BL/view?usp=sharing)
 
-**Google Data Analytics Capstone: Complete a Case Study — Coursera**  
-https://www.coursera.org/learn/google-data-analytics-capstone
-
-**Dados públicos Divvy / Cyclistic**  
-https://divvy-tripdata.s3.amazonaws.com/index.html
-
-**Instruções do estudo de caso**  
-https://drive.google.com/file/d/1u_7951LuTewBW-5TVi7LggP8d_GWFzyb/view?usp=sharing
-
-**Base tratada completa**  
-https://drive.google.com/file/d/13gkQdLmNL2fyKYKT0Ty7U5z3SaLbyza_/view?usp=sharing
-
-**Projeto Power BI**  
 https://drive.google.com/file/d/1Ddb5DukxWc_TXkhesHI3NAJtzMzuP6BL/view?usp=sharing
