@@ -1,15 +1,30 @@
-# Dataset
+# Dados do projeto
 
-The raw dataset used in this project is provided by Divvy / Lyft
-through the Divvy Trip Data portal.
+Este projeto utiliza 12 meses de dados públicos de viagens da Divvy, correspondentes ao período de setembro de 2025 a agosto de 2026.
 
-Due to the size of the dataset, the original CSV files are not
-stored in this repository.
+Os arquivos originais foram mantidos neste diretório, organizados por mês.
 
-Data source:
-https://divvy-tripdata.s3.amazonaws.com/index.html
+## Base preparada para o Power BI
 
-The project uses 12 months of historical bike trip data.
+Após a etapa de limpeza e preparação dos dados, foi gerado o arquivo:
 
-The Python notebook in this repository performs the data loading,
-cleaning, transformation and exploratory data analysis.
+`cyclistic_powerbi.csv`
+
+Essa versão foi utilizada na construção do dashboard no Power BI.
+
+Durante essa etapa, foram removidas as seguintes colunas:
+
+- `start_station_name`
+- `start_station_id`
+- `end_station_name`
+- `end_station_id`
+- `start_lat`
+- `start_lng`
+- `end_lat`
+- `end_lng`
+
+Essas variáveis continham informações relacionadas às estações e à localização geográfica das viagens.
+
+Como a pergunta de negócio deste estudo de caso está concentrada na comparação entre usuários `member` e `casual`, essas informações não eram necessárias para responder ao problema proposto nem para construir as visualizações utilizadas na análise final.
+
+A remoção dessas colunas também contribuiu para reduzir o tamanho da base utilizada no Power BI, sem perda de informações relevantes para os objetivos desta análise.
