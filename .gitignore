@@ -1,1 +1,9 @@
+# Raw datasets
+data/raw/
+*.zip
 
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
