@@ -8,7 +8,7 @@ Os arquivos originais foram mantidos neste diretório, organizados por mês.
 
 Após a etapa de limpeza e preparação dos dados, foi gerado o arquivo:
 
-`cyclistic_powerbi.csv`
+`BaseDadosDivvy_LimpaParaPowerBI.csv`
 
 Essa versão foi utilizada na construção do dashboard no Power BI.
 
